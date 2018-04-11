@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/lizelu/MyCocoaPodsTestProject.git", :tag => s.version }#项目源码
   s.source_files  =  "Classes/**/*.{h,m}" #项目源码目录
   s.resource = 'Resource/*.png'
-  s.exclude_file = 'Exclude/**/*.{h,m}'
+  s.exclude_files = 'Exclude/**/*.{h,m}'
   s.framework  = "UIKit"  #项目所依赖的库
   s.requires_arc = true   #要求ARC环境
   s.dependency 'AFNetworking', '~>3.2' #依赖的其他仓库
