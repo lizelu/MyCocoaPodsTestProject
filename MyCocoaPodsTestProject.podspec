@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MyCocoaPodsTestProject"  #项目名称
-  s.version      = "0.0.4"                   #项目版本：tag号
+  s.version      = "0.0.5"                   #项目版本：tag号
   s.summary      = "test for cocoapods"      #项目的一个简单描述
   s.description  = <<-DESC                   #项目详细描述
                   添加描述内容,添加描述内容,添加描述内容   
