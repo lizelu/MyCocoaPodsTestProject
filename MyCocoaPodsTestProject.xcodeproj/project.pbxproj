@@ -75,8 +75,8 @@
 		F4CF4569209F5EF300C8154C /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				F4CF456A209F5EF300C8154C /* MyTestUtil.m */,
 				F4CF456B209F5EF300C8154C /* MyTestUtil.h */,
+				F4CF456A209F5EF300C8154C /* MyTestUtil.m */,
 			);
 			name = Util;
 			path = Classes/Util;

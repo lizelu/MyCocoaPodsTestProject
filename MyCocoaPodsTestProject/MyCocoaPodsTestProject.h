@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char MyCocoaPodsTestProjectVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <MyCocoaPodsTestProject/PublicHeader.h>
 
 
+#import <MyCocoaPodsTestProject/MyTestUtil.h>
+#import <MyCocoaPodsTestProject/MyTestViewViewController.h>
