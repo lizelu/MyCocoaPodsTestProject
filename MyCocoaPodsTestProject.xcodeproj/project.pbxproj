@@ -13,7 +13,7 @@
 		F4A46302207CDF8100FBDDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A46301207CDF8100FBDDA8 /* Assets.xcassets */; };
 		F4A46305207CDF8100FBDDA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A46303207CDF8100FBDDA8 /* LaunchScreen.storyboard */; };
 		F4A46308207CDF8100FBDDA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A46307207CDF8100FBDDA8 /* main.m */; };
-		F4A46311207CE00E00FBDDA8 /* MyTestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A46310207CE00E00FBDDA8 /* MyTestUtil.m */; };
+		F4CF4546209F4DC700C8154C /* MyTestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF4544209F4DC700C8154C /* MyTestUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		F4A46304207CDF8100FBDDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A46306207CDF8100FBDDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A46307207CDF8100FBDDA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4A4630F207CE00E00FBDDA8 /* MyTestUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestUtil.h; sourceTree = "<group>"; };
-		F4A46310207CE00E00FBDDA8 /* MyTestUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestUtil.m; sourceTree = "<group>"; };
+		F4CF4544209F4DC700C8154C /* MyTestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTestUtil.m; path = Util/MyTestUtil.m; sourceTree = "<group>"; };
+		F4CF4545209F4DC700C8154C /* MyTestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTestUtil.h; path = Util/MyTestUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		F4A4630E207CDFED00FBDDA8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F4A4630F207CE00E00FBDDA8 /* MyTestUtil.h */,
-				F4A46310207CE00E00FBDDA8 /* MyTestUtil.m */,
+				F4CF4545209F4DC700C8154C /* MyTestUtil.h */,
+				F4CF4544209F4DC700C8154C /* MyTestUtil.m */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -157,7 +157,7 @@
 				F4A462FD207CDF7F00FBDDA8 /* ViewController.m in Sources */,
 				F4A46308207CDF8100FBDDA8 /* main.m in Sources */,
 				F4A462FA207CDF7F00FBDDA8 /* AppDelegate.m in Sources */,
-				F4A46311207CE00E00FBDDA8 /* MyTestUtil.m in Sources */,
+				F4CF4546209F4DC700C8154C /* MyTestUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
