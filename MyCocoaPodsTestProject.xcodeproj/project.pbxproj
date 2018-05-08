@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F434B82720A1892700DF4BC3 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = F434B82620A1892700DF4BC3 /* 001.png */; };
 		F4CF4556209F50C700C8154C /* MyCocoaPodsTestProject.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CF4554209F50C700C8154C /* MyCocoaPodsTestProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4CF456C209F5EF400C8154C /* MyTestViewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CF4567209F5EF300C8154C /* MyTestViewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4CF456D209F5EF400C8154C /* MyTestViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF4568209F5EF300C8154C /* MyTestViewViewController.m */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F434B82620A1892700DF4BC3 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 		F4CF4551209F50C700C8154C /* MyCocoaPodsTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCocoaPodsTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CF4554209F50C700C8154C /* MyCocoaPodsTestProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCocoaPodsTestProject.h; sourceTree = "<group>"; };
 		F4CF4555209F50C700C8154C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F434B82520A1892700DF4BC3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F434B82620A1892700DF4BC3 /* 001.png */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
+		};
 		F4CF4547209F50C700C8154C = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		F4CF4553209F50C700C8154C /* MyCocoaPodsTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				F434B82520A1892700DF4BC3 /* Resource */,
 				F4CF4569209F5EF300C8154C /* Util */,
 				F4CF4566209F5EF300C8154C /* ViewController */,
 				F4CF4554209F50C700C8154C /* MyCocoaPodsTestProject.h */,
@@ -152,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F434B82720A1892700DF4BC3 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

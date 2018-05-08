@@ -19,7 +19,13 @@ Pod::Spec.new do |s|
   s.author             = { "lizelu" => "lizelusdut@qq.com" }#作者
   s.platform     = :ios, "8.0"  #兼容的最低系统版本
   s.source       = { :git => "https://github.com/lizelu/MyCocoaPodsTestProject.git", :tag => s.version }#项目源码
-  s.source_files  =  "Classes/**/*.{h,m}" #项目源码目录
+
+  if ENV['IS_SOURCE']
+    s.source_files  =  "Classes/**/*.{h,m}" #项目源码目录
+  else
+    s.source_files = 'Carthage/Build/**/*.{h}'
+    s.ios.vendored_frameworks = 'Carthage/Build/**/*.framework'
+  end
   s.resource = 'Resource/*.png'
   s.exclude_files = 'Exclude/**/*.{h,m}'
   s.framework  = "UIKit"  #项目所依赖的库
